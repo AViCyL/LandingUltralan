@@ -1,0 +1,128 @@
+/* FONT FACE */
+
+@font-face {
+  font-family: "Mont-bold";
+  src: url("../fonts/FontsFree-Net-Mont-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Mont-bold", sans-serif !important;
+}
+
+.title {
+  margin-top: 32px;
+  font-family: Mont-bold;
+}
+
+.w3-bar,
+h1,
+button {
+  font-family: "Montserrat", sans-serif;
+}
+
+.fa-hand-peace-o,
+.fa-rocket {
+  font-size: 200px;
+}
+
+.eventSlides {
+  width: 50%;
+  height: 50%;
+  object-fit: cover !important;
+  box-shadow: 1px 9px 11px 12px #00000029;
+}
+
+header {
+  border-radius: 0px 0px 120px 120px;
+  background: linear-gradient(-45deg, #ee7752, #e73cd9, #673ab7, #2370d5);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+}
+
+footer {
+  border-radius: 120px 120px 0px 0px;
+  background-color: #29302e !important;
+  color: white;
+}
+
+/* GRID INFO */
+.info_avi {
+  margin: 50px;
+  border-radius: 69px;
+  max-width: 1210px;
+  background-color: white;
+  box-shadow: 1px 9px 11px 12px #00000029;
+  margin-left: auto;
+  margin-right: auto;
+}
+.info_avi2 {
+  margin: 50px;
+  border-radius: 69px;
+  max-width: 1210px;
+  background-color: white !important;
+  box-shadow: 1px 9px 11px 12px #00000029;
+  margin-left: auto;
+  margin-right: auto;
+}
+.info_who{
+  display: flex;
+  align-items: center;
+}
+
+.hand,
+.rocket {
+  background: radial-gradient(
+    circle,
+    rgba(167, 180, 233, 0.2) 0%,
+    rgba(255, 255, 255, 0) 70%
+  );
+}
+.fa-hand-peace-o,
+.fa-rocket {
+  background: -webkit-linear-gradient(-45deg, #525cee, #673ab7, #2370d5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.insc{
+  color: white;
+}
+.but_ins {
+  box-shadow: 1px 9px 11px 1px #00000029;
+  padding: 14px 22px;
+  border-radius: 24px !important;
+  margin-bottom: 11px;
+  background: linear-gradient(-45deg, #ee7752, #e73cd9, #673ab7, #2370d5);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+}
+
+/* KEYFRAMES */
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/*Media Query*/
+
+@media (max-width: 600px) {
+  .facet_sidebar {
+    display: none;
+  }
+}
