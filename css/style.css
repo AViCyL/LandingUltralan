@@ -122,7 +122,14 @@ footer {
 /*Media Query*/
 
 @media (max-width: 600px) {
-  .facet_sidebar {
-    display: none;
+  .info_avi, .info_avi2 {
+    margin: 50px;
+  }
+  .info_who{
+    flex-direction: column;
+  }
+  .eventSlides {
+    width: 70%;
+    height: 70%;
   }
 }
